@@ -1,0 +1,57 @@
+/* Archivo styles.css */
+ /*estilos generales para las selecciones  principales */
+body{
+font-family: Arial, Helvetica, sans-serif;/*fuente del texto */
+margin: 0; /* elimina los margenes */
+padding: 0; /* elimina los rellenos */
+background: linear-gradient(to right, #f5f5f5, #fc1818); /* Fondo con gradiente */
+color:#333; /* Color de texto */
+}
+/* estilos generales para las selecciones principales*/
+header, nav, section, article, footer{
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+    border-radius: 10px; /* Bordes redondeados */
+    background: white;
+    box-shadow: 0px 4px 6px rgb(0,0,0,0.1); /* Sombra suave*/
+}
+/*barra de navegacion */
+
+nav{
+    display: flex; /*usa flexbox para organizar elemntos */
+    justify-content: center; /* Justificar contenido */
+    gap: 15px; /* Espaciado entre enlaces */
+    padding: 10px; /* Espaciado interno */
+    background: #444; /* Fondo oscuro*/
+    border-radius: 10px; /* Bordes redondeados */
+}
+/*estilos de enlaces de navegacion*/
+nav a{
+    text-decoration: none;/*quitar el subrayado*/
+    color: white;/* colordel texto*/
+    font-weight: bold;/*texto en negrita*/
+    padding:10px 15px; /*espacio interno*/
+    border-radius: 5px;/*bordes redondeados*/
+    transition: bacground 0.3;/* transicion de coloral pasar el mouse*/ 
+}+
+                                             cxcxcvsddddddfdsfdfsd
+nav a:hover{
+    background: #ff7e5f; /*Cambia de color al pasar el mouse */
+/* estilo de las imagenes */
+img{
+    max-width: 100%; /* Imagenes al 100% */
+    height: auto; /* mantiene la proporcion */
+    border-radius: 10px; /* Bordes redondeados */
+
+}
+
+
+}
+/*estilo del pie de pagina */
+footer{
+    text-align: center; /* Alinea al centro */
+    background: #222;
+    color: white; /* texto en blanco  */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+}
