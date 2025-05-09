@@ -1,0 +1,48 @@
+/* Archivo styles.css */
+
+/*Estilos generales para las secciones principales  */
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* Fuente del texto*/
+    margin: 0; /* Elimna los margenes */
+    padding: 0; /* Elimina los rellenos */
+    background: linear-gradient(to right, #ffe5ff, #feb47b); /* Fondo con gradiente*/
+    color: #333; /* Color de texto */
+}
+
+header, nav, section, article, footer{
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+    border-radius: 10px; /*Borde redondeado*/
+    background: white;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.1); /* Sombra suave*/
+}
+
+nav{
+    display: flex; /* Usa flexbox para organizar elementos */
+    justify-content: center; /*Centra los enlaces*/
+    gap: 15px; /* Espacio entre enlaces */
+    padding: 10px; /* Espaciado interno */
+    background: #444; /* Fondo oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+nav a:hover{
+    background: #ff7e5f; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos a la imagen */
+img {
+    max-width: 100%; /* Evita que la imagen de desborde */
+    height: auto; /* Mantiene la proporcion */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/*Estilos al pie de pagina*/
+footer{
+    text-align: center; /*Centra el texto*/
+    background: #222; /* Fondo obscuro */
+    color: white; /* Texto en blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+} 
